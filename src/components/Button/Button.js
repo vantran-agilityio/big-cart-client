@@ -2,8 +2,13 @@ import React from 'react';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 export const MyButton = ({ onPress, text }) => {
+  // TODO: this is example, this component will be updated
   return (
-    <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.8}>
+    <TouchableOpacity
+      style={styles.container}
+      onPress={onPress}
+      activeOpacity={0.8}
+    >
       <Text style={styles.text}>{text}</Text>
     </TouchableOpacity>
   );
@@ -14,7 +19,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 8,
     backgroundColor: 'purple',
-    borderRadius: 8,
+    borderRadius: 8
   },
-  text: { color: 'white' },
+  text: { color: 'white' }
 });
