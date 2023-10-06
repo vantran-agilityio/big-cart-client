@@ -1,6 +1,0 @@
-{
-  "expo": {
-    "entryPoint": "./index-storybook.ts",
-    "slug": "react-native-storybook-setup-storybook"
-  }
-}
